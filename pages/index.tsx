@@ -6,16 +6,16 @@ export default function MEFrp() {
     return (
         <React.Fragment>
           <Head>
-            <title>ME Frp | 镜缘映射 - 免费内网穿透_公益_端口映射_Minecraft我的世界联机_泰拉瑞亚联机_远程桌面</title>
+            <title>青缘映射 - 免费内网穿透_公益_端口映射_Minecraft我的世界联机_泰拉瑞亚联机_远程桌面</title>
           </Head>
             <CssBaseline />
             <AppBar position="relative">
                 <Toolbar>
                     <Typography variant="h6" color="inherit" noWrap>
-                        ME Frp 镜缘映射
+                        Dan_Qing Edge Frp 青缘映射
                     </Typography>
                     <Box flexGrow={1} />
-                    <Link href="https://qm.qq.com/q/rWsYtraZ1e" color="inherit" sx={{ my: 1, mx: 1.5 }}>QQ 群</Link>
+                    <Link href="https://qm.qq.com/q/smRD9LKyzu" color="inherit" sx={{ my: 1, mx: 1.5 }}>QQ 群</Link>
                     <Link href="console/home" color="inherit" sx={{ my: 1, mx: 1.5 }}>控制面板</Link>
                     <Button href="auth/register" color="inherit" variant="outlined" sx={{ my: 1, mx: 1.5 }}>
                         注册
@@ -26,7 +26,7 @@ export default function MEFrp() {
                 {/* Hero unit */}
                 <Container disableGutters component="main" sx={{ pt: 8, pb: 6 }}>
                     <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-                        ME Frp 镜缘映射
+                        青缘映射
                     </Typography>
                     <Typography variant="h5" align="center" color="textSecondary" paragraph>
                         免费 公益 好用 低延迟 稳定的Frp内网穿透
