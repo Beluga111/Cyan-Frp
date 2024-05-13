@@ -12,7 +12,7 @@ export default function MEFrp() {
             <AppBar position="relative">
                 <Toolbar>
                     <Typography variant="h6" color="inherit" noWrap>
-                        Cran Edge Frp 青缘映射
+                        Cran Edge
                     </Typography>
                     <Box flexGrow={1} />
                     <Link href="https://qm.qq.com/q/smRD9LKyzu" color="inherit" sx={{ my: 1, mx: 1.5 }}>QQ 群</Link>
@@ -26,7 +26,7 @@ export default function MEFrp() {
                 {/* Hero unit */}
                 <Container disableGutters component="main" sx={{ pt: 8, pb: 6 }}>
                     <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-                        Cyan Edge
+                        Cran Edge Frp 青缘映射
                     </Typography>
                     <Typography variant="h5" align="center" color="textSecondary" paragraph>
                         免费 公益 好用 低延迟 稳定的Frp内网穿透
