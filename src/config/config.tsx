@@ -1,11 +1,11 @@
 const config = {
     "dev": {
-        "api": "http://127.0.0.1:8080/api/",
+        "api": "https://frpapi.insky.top/api/",
         "title": "镜缘映射|Dev|"
     },
     "prod": {
-        "api": "https://api.mefrp.com/api/",
-        "title": "镜缘映射|"
+        "api": "https://frpapi.insky.top/api/",
+        "title": "青缘映射|"
     }
 }
 let current = config.dev;
