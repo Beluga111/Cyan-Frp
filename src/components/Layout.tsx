@@ -144,7 +144,7 @@ const Layout = ({ children }: LayoutProps) => {
                         noWrap
                         sx={{flexGrow: 1}}
                     >
-                        ME Frp
+                        Cyan Edge
                     </Typography>
                     <IconButton
                         color="inherit"
