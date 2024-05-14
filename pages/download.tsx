@@ -113,6 +113,7 @@ export default function DownloadPage() {
                             >
                                 <MenuItem value="Windows">Windows</MenuItem>
                                 <MenuItem value="Linux">Linux</MenuItem>
+                                <MenuItem value="全系统">全系统</MenuItem>
                                 {/* 其他系统选项 */}
                             </TextField>
                             <TextField
