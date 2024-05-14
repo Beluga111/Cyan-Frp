@@ -19,7 +19,7 @@ export default function DownloadPage() {
     const files = [
         {
             name: '青缘.湘鲸(推荐)',
-            architecture: '全平台',
+            architecture: 'Docker Container',
             system: '全系统',
             type: 'DOCKER',
             description: 'Docker 一键脚本',
@@ -99,7 +99,7 @@ export default function DownloadPage() {
                                 fullWidth
                                 sx={{marginBottom: '1rem'}}
                             >
-                                <MenuItem value="DOCKER">Dk</MenuItem>
+                                <MenuItem value="DOCKER">码头工人</MenuItem>
                                 <MenuItem value="CLI">控制台</MenuItem>
                                 {/* 其他启动器类型选项 */}
                             </TextField>
@@ -111,10 +111,8 @@ export default function DownloadPage() {
                                 fullWidth
                                 sx={{marginBottom: '1rem'}}
                             >
-                                <MenuItem value="windows">Windows</MenuItem>
-                                <MenuItem value="linux">Linux</MenuItem>
-                                <MenuItem value="macOS">MacOS</MenuItem>
-                                <MenuItem value="freeBSD">FreeBSD</MenuItem>
+                                <MenuItem value="Windows">Windows</MenuItem>
+                                <MenuItem value="Linux">Linux</MenuItem>
                                 {/* 其他系统选项 */}
                             </TextField>
                             <TextField
@@ -124,15 +122,8 @@ export default function DownloadPage() {
                                 onChange={(e) => setSelectedArchitecture(e.target.value)}
                                 fullWidth
                             >
-                                <MenuItem value="amd64">amd64</MenuItem>
-                                <MenuItem value="arm">arm</MenuItem>
-                                <MenuItem value="arm64">arm64</MenuItem>
-                                <MenuItem value="386">386</MenuItem>
-                                <MenuItem value="mips">mips</MenuItem>
-                                <MenuItem value="mipsle">mipsle</MenuItem>
-                                <MenuItem value="mips64">mips64</MenuItem>
-                                <MenuItem value="mips64le">mips64le</MenuItem>
-                                <MenuItem value="riscv64">riscv64</MenuItem>
+                                <MenuItem value="架构自适应">自适应</MenuItem>
+                                <MenuItem value="Docker container">码头.容器</MenuItem>
                                 {/* 其他架构选项 */}
                             </TextField>
                         </CardContent>
