@@ -18,29 +18,21 @@ export default function DownloadPage() {
 
     const files = [
         {
-            name: '青缘.湘鲸(推荐)',
-            architecture: 'Docker Container',
-            system: '全系统',
-            type: 'DOCKER',
-            description: 'Docker 一键脚本',
-            link: 'Frp_d',
-        },
-        {
-            name: '青缘.视窗',
-            architecture: '架构自适应',
+            name: '青缘.视窗amd',
+            architecture: 'amd64',
             system: 'Windows',
             type: 'CLI',
-            description: 'Windows CLI 一键脚本',
-            link: 'Frp_w',
+            description: 'Windows CLI 客户端',
+            link: 'Frp_w_ad64',
         },
 
         {
-            name: '青缘.企鹅',
-            architecture: '架构自适应',
+            name: '青缘.企鹅amd',
+            architecture: 'amd64',
             system: 'Linux',
             type: 'CLI',
-            description: 'Linux CLI 一键脚本',
-            link: 'Frp_l',
+            description: 'Linux CLI 客户端',
+            link: 'Frp_l_ad64',
         }
     ];
     const [selectedSource, setSelectedSource] = useState(sourceUrls[0].link);
@@ -99,7 +91,6 @@ export default function DownloadPage() {
                                 fullWidth
                                 sx={{marginBottom: '1rem'}}
                             >
-                                <MenuItem value="DOCKER">码头工人</MenuItem>
                                 <MenuItem value="CLI">控制台</MenuItem>
                                 {/* 其他启动器类型选项 */}
                             </TextField>
@@ -113,7 +104,6 @@ export default function DownloadPage() {
                             >
                                 <MenuItem value="Windows">Windows</MenuItem>
                                 <MenuItem value="Linux">Linux</MenuItem>
-                                <MenuItem value="全系统">全系统</MenuItem>
                                 {/* 其他系统选项 */}
                             </TextField>
                             <TextField
@@ -123,8 +113,7 @@ export default function DownloadPage() {
                                 onChange={(e) => setSelectedArchitecture(e.target.value)}
                                 fullWidth
                             >
-                                <MenuItem value="架构自适应">自适应</MenuItem>
-                                <MenuItem value="DOCKER">Docker</MenuItem>
+                                <MenuItem value="amd64">AMD:64</MenuItem>
                                 {/* 其他架构选项 */}
                             </TextField>
                         </CardContent>
