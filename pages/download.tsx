@@ -9,7 +9,7 @@ export default function DownloadPage() {
         {
             link: 'https://追光.丹青.cn/dloadlink/',
             name: '(国内)追光极速直链',
-        }
+        },
         {
             link: 'https://方舟.丹青.cn/dloadlink/',
             name: '(海外)方舟稳定直链',
