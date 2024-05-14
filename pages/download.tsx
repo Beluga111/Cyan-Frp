@@ -19,97 +19,21 @@ export default function DownloadPage() {
     const files = [
         {
             name: '青缘.视窗',
-            architecture: 'amd64',
+            architecture: '架构自适应',
             system: 'Windows',
-            type: 'PureCli',
-            description: 'Windows CLI 启动器',
-            link: 'Frp_0513_w_ad64.zip'
+            type: 'CLI',
+            description: 'Windows CLI 一键脚本',
+            link: 'Frp_w'
         },
 
         {
-            name: 'MirrorEdgeFrp_0.51.3_linux_amd64.tar.gz',
-            architecture: 'amd64',
-            system: 'linux',
-            type: 'PureCli',
-            link: 'MirrorEdgeFrp_0.51.3_linux_amd64.tar.gz'
-        },
-        {
-            name: 'MirrorEdgeFrp_0.51.3_darwin_amd64.tar.gz',
-            architecture: 'amd64',
-            system: 'darwin',
-            type: 'PureCli',
-            link: 'MirrorEdgeFrp_0.51.3_darwin_amd64.tar.gz'
-        },
-        {
-            name: 'MirrorEdgeFrp_0.51.3_linux_arm.tar.gz',
-            architecture: 'arm',
-            system: 'linux',
-            type: 'PureCli',
-            link: 'MirrorEdgeFrp_0.51.3_linux_arm.tar.gz'
-        },
-        {
-            name: 'MirrorEdgeFrp_0.51.3_linux_arm64.tar.gz',
-            architecture: 'arm64',
-            system: 'linux',
-            type: 'PureCli',
-            link: 'MirrorEdgeFrp_0.51.3_linux_arm64.tar.gz'
-        },
-        {
-            name: 'MirrorEdgeFrp_0.51.3_linux_mips64.tar.gz',
-            architecture: 'mips64',
-            system: 'linux',
-            type: 'PureCli',
-            link: 'MirrorEdgeFrp_0.51.3_linux_mips64.tar.gz'
-        },
-        {
-            name: 'MirrorEdgeFrp_0.51.3_linux_mips64le.tar.gz',
-            architecture: 'mips64le',
-            system: 'linux',
-            type: 'PureCli',
-            link: 'MirrorEdgeFrp_0.51.3_linux_mips64le.tar.gz'
-        },
-        {
-            name: 'MirrorEdgeFrp_0.51.3_linux_mips.tar.gz',
-            architecture: 'mips',
-            system: 'linux',
-            type: 'PureCli',
-            link: 'MirrorEdgeFrp_0.51.3_linux_mips.tar.gz'
-        },
-        {
-            name: 'MirrorEdgeFrp_0.51.3_linux_mipsle.tar.gz',
-            architecture: 'mipsle',
-            system: 'linux',
-            type: 'PureCli',
-            link: 'MirrorEdgeFrp_0.51.3_linux_mipsle.tar.gz'
-        },
-        {
-            name: 'MirrorEdgeFrp_0.51.3_darwin_arm64.tar.gz',
-            architecture: 'arm64',
-            system: 'darwin',
-            type: 'PureCli',
-            link: 'MirrorEdgeFrp_0.51.3_darwin_arm64.tar.gz'
-        },
-        {
-            name: 'MirrorEdgeFrp_0.51.3_freebsd_386.tar.gz',
-            architecture: '386',
-            system: 'freebsd',
-            type: 'PureCli',
-            link: 'MirrorEdgeFrp_0.51.3_freebsd_386.tar.gz'
-        },
-        {
-            name: 'MirrorEdgeFrp_0.51.3_freebsd_amd64.tar.gz',
-            architecture: 'amd64',
-            system: 'freebsd',
-            type: 'PureCli',
-            link: 'MirrorEdgeFrp_0.51.3_freebsd_amd64.tar.gz'
-        },
-        {
-            name: 'MirrorEdgeFrp_0.51.3_linux_riscv64.tar.gz',
-            architecture: 'riscv64',
-            system: 'linux',
-            type: 'PureCli',
-            link: 'MirrorEdgeFrp_0.51.3_linux_riscv64.tar.gz'
-        },
+            name: '青缘.企鹅',
+            architecture: '架构自适应',
+            system: 'Linux',
+            type: 'CLI',
+            description: 'Linux CLI 一键脚本',
+            link: 'Frp_l'
+        }
     ];
     const [selectedSource, setSelectedSource] = useState(sourceUrls[0].link);
     const [selectedLauncher, setSelectedLauncher] = useState('');
