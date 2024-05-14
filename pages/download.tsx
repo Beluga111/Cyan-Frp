@@ -18,6 +18,14 @@ export default function DownloadPage() {
 
     const files = [
         {
+            name: '青缘.湘鲸(推荐)',
+            architecture: '全平台',
+            system: '全系统',
+            type: 'DOCKER',
+            description: 'Docker 一键脚本',
+            link: 'Frp_d'
+        },
+        {
             name: '青缘.视窗',
             architecture: '架构自适应',
             system: 'Windows',
