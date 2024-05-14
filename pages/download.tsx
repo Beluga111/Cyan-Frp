@@ -124,7 +124,7 @@ export default function DownloadPage() {
                                 fullWidth
                             >
                                 <MenuItem value="架构自适应">自适应</MenuItem>
-                                <MenuItem value="Docker container">码头.容器</MenuItem>
+                                <MenuItem value="DOCKER">Docker</MenuItem>
                                 {/* 其他架构选项 */}
                             </TextField>
                         </CardContent>
