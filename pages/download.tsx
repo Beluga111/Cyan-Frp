@@ -99,8 +99,8 @@ export default function DownloadPage() {
                                 fullWidth
                                 sx={{marginBottom: '1rem'}}
                             >
-                                <MenuItem value="图形化">图形化</MenuItem>
-                                <MenuItem value="PureCli">CLI</MenuItem>
+                                <MenuItem value="DOCKER">Dk</MenuItem>
+                                <MenuItem value="CLI">控制台</MenuItem>
                                 {/* 其他启动器类型选项 */}
                             </TextField>
                             <TextField
