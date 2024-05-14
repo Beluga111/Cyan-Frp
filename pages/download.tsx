@@ -7,44 +7,25 @@ import { useState } from 'react';
 export default function DownloadPage() {
     const sourceUrls = [
         {
-            link: 'https://download.mefrp.com/',
-            name: '[境外]ME Frp 下载站/镜缘网络'
-        },
+            link: 'https://追光.丹青.cn/dloadlink/',
+            name: '(国内)追光极速直链'
+        }
         {
-            link: 'https://download.mefrp.top/',
-            name: '[境外]Cloudflare R2/ME Frp 官方'
-        },
-        {
-            link: 'https://github.com/ME-Frp/ME-Frp-Core/releases/download/ME-Frp-0.51.3/',
-            name: '[境外]Github Release'
+            link: 'https://方舟.丹青.cn/dloadlink/',
+            name: '(海外)方舟稳定直链'
         }
     ];
 
     const files = [
         {
-            name: 'MirrorEdgeFrp_0.51.3_windows_amd64.zip',
+            name: '青缘.视窗',
             architecture: 'amd64',
-            system: 'windows',
+            system: 'Windows',
             type: 'PureCli',
             description: 'Windows CLI 启动器',
-            link: 'MirrorEdgeFrp_0.51.3_windows_amd64.zip'
+            link: 'Frp_0513_w_ad64.zip'
         },
-        {
-            name: 'MEFrp-Launcher_x64_Setup.exe',
-            architecture: 'amd64',
-            system: 'windows',
-            type: '图形化',
-            description: 'Windows 图形化 启动器',
-            link: 'MEFrp-Launcher_x64_Setup.exe'
-        },
-        {
-            name: 'MEFrp-Launcher_x86_Setup.exe',
-            architecture: '386',
-            system: 'windows',
-            type: '图形化',
-            description: 'Windows 图形化 启动器',
-            link: 'MEFrp-Launcher_x86_Setup.exe'
-        },
+
         {
             name: 'MirrorEdgeFrp_0.51.3_linux_amd64.tar.gz',
             architecture: 'amd64',
