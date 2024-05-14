@@ -8,11 +8,11 @@ export default function DownloadPage() {
     const sourceUrls = [
         {
             link: 'https://追光.丹青.cn/dloadlink/',
-            name: '(国内)追光极速直链'
+            name: '(国内)追光极速直链',
         }
         {
             link: 'https://方舟.丹青.cn/dloadlink/',
-            name: '(海外)方舟稳定直链'
+            name: '(海外)方舟稳定直链',
         }
     ];
 
@@ -23,7 +23,7 @@ export default function DownloadPage() {
             system: '全系统',
             type: 'DOCKER',
             description: 'Docker 一键脚本',
-            link: 'Frp_d'
+            link: 'Frp_d',
         },
         {
             name: '青缘.视窗',
@@ -31,7 +31,7 @@ export default function DownloadPage() {
             system: 'Windows',
             type: 'CLI',
             description: 'Windows CLI 一键脚本',
-            link: 'Frp_w'
+            link: 'Frp_w',
         },
 
         {
@@ -40,7 +40,7 @@ export default function DownloadPage() {
             system: 'Linux',
             type: 'CLI',
             description: 'Linux CLI 一键脚本',
-            link: 'Frp_l'
+            link: 'Frp_l',
         }
     ];
     const [selectedSource, setSelectedSource] = useState(sourceUrls[0].link);
