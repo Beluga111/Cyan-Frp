@@ -149,7 +149,6 @@ export default function DownloadPage() {
                                 <MenuItem value="amd64">64位AMD</MenuItem>
                                 <MenuItem value="arm64">64位ARM</MenuItem>
                                 <MenuItem value="arm64">32位ARM</MenuItem>
-                                <MenuItem value="arm64">苹果专属架构</MenuItem>
                                 {/* 其他架构选项 */}
                             </TextField>
                         </CardContent>
