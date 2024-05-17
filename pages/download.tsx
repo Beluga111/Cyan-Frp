@@ -33,7 +33,7 @@ export default function DownloadPage() {
             type: 'CLI',
             description: 'Linux CLI 客户端',
             link: 'CyanEdge_linux_amd64',
-        }
+        },
         {
             name: '青缘.苹果amd64',
             architecture: 'amd64',
@@ -41,7 +41,7 @@ export default function DownloadPage() {
             type: 'CLI',
             description: 'MacOS CLI 客户端',
             link: 'CyanEdge_darwin_amd64',
-        }
+        },
         {
             name: '青缘.企鹅arm64',
             architecture: 'arm64',
@@ -49,7 +49,7 @@ export default function DownloadPage() {
             type: 'CLI',
             description: 'Linux CLI 客户端',
             link: 'CyanEdge_linux_arm64',
-        }
+        },
         {
             name: '青缘.苹果arm64',
             architecture: 'arm64',
@@ -57,6 +57,7 @@ export default function DownloadPage() {
             type: 'CLI',
             description: 'MacOS CLI 客户端',
             link: 'CyanEdge_darwin_arm64', 
+        },
         {
             name: '青缘.企鹅arm32',
             architecture: 'arm32',
