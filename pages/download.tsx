@@ -137,7 +137,7 @@ export default function DownloadPage() {
                             >
                                 <MenuItem value="Windows">Windows</MenuItem>
                                 <MenuItem value="Linux">Linux</MenuItem>
-                                <MenuItem value="MacOS">MacOS</MenuItem>
+                                <MenuItem value="Darwin">MacOS</MenuItem>
                                 {/* 其他系统选项 */}
                             </TextField>
                             <TextField
@@ -149,7 +149,7 @@ export default function DownloadPage() {
                             >
                                 <MenuItem value="amd64">64位AMD</MenuItem>
                                 <MenuItem value="arm64">64位ARM</MenuItem>
-                                <MenuItem value="arm64">32位ARM</MenuItem>
+                                <MenuItem value="arm32">32位ARM</MenuItem>
                                 {/* 其他架构选项 */}
                             </TextField>
                         </CardContent>
