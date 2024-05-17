@@ -15,7 +15,7 @@ export default function MEFrp() {
                         Cran Edge
                     </Typography>
                     <Box flexGrow={1} />
-                    <Link href="https://qm.qq.com/q/smRD9LKyzu" color="inherit" sx={{ my: 1, mx: 1.5 }}>QQ 群</Link>
+                    <Link href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1E5NqsJHntGR5DWTs1ebzZ98oJB-E79L&authKey=s0IkH6FiyQ19QV0FDJue1SAzkk%2BJNNko2hQYQSTIxKO2%2BVKNU%2Bj5AM%2FtbYBDLxMJ&noverify=0&group_code=834034070" color="inherit" sx={{ my: 1, mx: 1.5 }}>QQ 群</Link>
                     <Link href="console/home" color="inherit" sx={{ my: 1, mx: 1.5 }}>控制面板</Link>
                     <Button href="auth/register" color="inherit" variant="outlined" sx={{ my: 1, mx: 1.5 }}>
                         注册
