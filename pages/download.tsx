@@ -7,33 +7,65 @@ import { useState } from 'react';
 export default function DownloadPage() {
     const sourceUrls = [
         {
-            link: 'https://追光.丹青.cn/dloadlink/',
-            name: '(国内)追光极速直链',
+            link: '#',
+            name: '(国内)追光极速直链(敬请期待)',
         },
         {
-            link: 'https://方舟.丹青.cn/dloadlink/',
+            link: 'https://海外接口.insky.top/翡翠/Cyan-Frp/',
             name: '(海外)方舟稳定直链',
         }
     ];
 
     const files = [
         {
-            name: '青缘.视窗amd',
+            name: '青缘.视窗amd64',
             architecture: 'amd64',
             system: 'Windows',
             type: 'CLI',
             description: 'Windows CLI 客户端',
-            link: 'Frp_w_ad64',
+            link: 'CyanEdge_windows_amd64',
         },
 
         {
-            name: '青缘.企鹅amd',
+            name: '青缘.企鹅amd64',
             architecture: 'amd64',
             system: 'Linux',
             type: 'CLI',
             description: 'Linux CLI 客户端',
-            link: 'Frp_l_ad64',
+            link: 'CyanEdge_linux_amd64',
         }
+        {
+            name: '青缘.苹果amd64',
+            architecture: 'amd64',
+            system: 'Darwin',
+            type: 'CLI',
+            description: 'MacOS CLI 客户端',
+            link: 'CyanEdge_darwin_amd64',
+        }
+        {
+            name: '青缘.企鹅arm64',
+            architecture: 'arm64',
+            system: 'Linux',
+            type: 'CLI',
+            description: 'Linux CLI 客户端',
+            link: 'CyanEdge_linux_arm64',
+        }
+        {
+            name: '青缘.苹果arm64',
+            architecture: 'arm64',
+            system: 'Darwin',
+            type: 'CLI',
+            description: 'MacOS CLI 客户端',
+            link: 'CyanEdge_darwin_arm64', 
+        {
+            name: '青缘.企鹅arm32',
+            architecture: 'arm32',
+            system: 'Linux',
+            type: 'CLI',
+            description: 'Linux CLI 客户端',
+            link: 'CyanEdge_linux_arm32',
+        }
+
     ];
     const [selectedSource, setSelectedSource] = useState(sourceUrls[0].link);
     const [selectedLauncher, setSelectedLauncher] = useState('');
@@ -104,6 +136,7 @@ export default function DownloadPage() {
                             >
                                 <MenuItem value="Windows">Windows</MenuItem>
                                 <MenuItem value="Linux">Linux</MenuItem>
+                                <MenuItem value="MacOS">MacOS</MenuItem>
                                 {/* 其他系统选项 */}
                             </TextField>
                             <TextField
@@ -114,6 +147,9 @@ export default function DownloadPage() {
                                 fullWidth
                             >
                                 <MenuItem value="amd64">AMD:64</MenuItem>
+                                <MenuItem value="arm64">ARM:64</MenuItem>
+                                <MenuItem value="arm64">ARM:32</MenuItem>
+                                <MenuItem value="arm64">苹果专属架构</MenuItem>
                                 {/* 其他架构选项 */}
                             </TextField>
                         </CardContent>
