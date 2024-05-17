@@ -27,12 +27,7 @@ const FirstListItem = [
       title: " 每日签到",
       path: "/console/user/sign",
       icon: <AssignmentTurnedIn />,
-    },
-    {
-      title: "赞助我们",
-      path: "/console/sponsor",
-      icon: <VolunteerActivism />,
-    },
+    }
   ];
 const SecondListItem = [
     {
