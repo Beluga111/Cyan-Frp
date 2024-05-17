@@ -82,13 +82,10 @@ const SponsorPage = () => {
                                     <Image src="/assets/wechat.jpg" alt="微信支付" width={250} height={375}/>
                                 </Grid>
                             </Grid>
-                            <Typography variant="body1" gutterBottom>你的支持是我们最大的动力！</Typography>
-                            <Typography variant="body1" gutterBottom>不要忘记备注您的用户名、邮箱和留言哦！</Typography>
-                            <ButtonGroup variant="contained" aria-label="outlined primary button group">
-                                <Button href="https://afdian.net/a/aehxy" variant="contained">爱发电</Button>
-                                <Button href="https://qm.qq.com/q/Ob3I1Gu52y"
-                                        variant="contained">QQ(节点赞助/合作需求)</Button>
-                            </ButtonGroup>
+                            <Typography variant="body1" gutterBottom>我是一个中学生，自费购买了海外大带宽服务器作为内网穿透节点，但是因为经费紧缺(学生党懂得都懂)，没多余的流动资金部署国内节点，我需要你们的帮助！</Typography>
+                            <Typography variant="body1" gutterBottom>不过请放心，有几个节点会一直启用直至Cyan-Frp停止运营</Typography>
+                            <Typography variant="body1" gutterBottom>常驻机：北美A区1机，北美A区2机(即将上线)，北美B区1机(即将上线)，南美A区1机(即将上线)，南美B区2机(即将上线)</Typography>
+                            <Typography variant="body1" gutterBottom>不要忘记备注您的用户名、邮箱和留言哦！我将在7日内在给您酌情充值等量时间的赞助FVIP</Typography>
                         </CardContent>
                     </Card>
                 </Grid>
