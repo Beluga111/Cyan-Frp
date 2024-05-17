@@ -146,9 +146,9 @@ export default function DownloadPage() {
                                 onChange={(e) => setSelectedArchitecture(e.target.value)}
                                 fullWidth
                             >
-                                <MenuItem value="amd64">AMD:64</MenuItem>
-                                <MenuItem value="arm64">ARM:64</MenuItem>
-                                <MenuItem value="arm64">ARM:32</MenuItem>
+                                <MenuItem value="amd64">64位AMD</MenuItem>
+                                <MenuItem value="arm64">64位ARM</MenuItem>
+                                <MenuItem value="arm64">32位ARM</MenuItem>
                                 <MenuItem value="arm64">苹果专属架构</MenuItem>
                                 {/* 其他架构选项 */}
                             </TextField>
