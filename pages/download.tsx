@@ -23,7 +23,7 @@ export default function DownloadPage() {
             system: 'Windows',
             type: 'CLI',
             description: 'Windows CLI 客户端',
-            link: 'CyanEdge_windows_amd64/cyan_map_engine',
+            link: 'CyanEdge_windows_amd64/frpc',
         },
 
         {
@@ -32,7 +32,7 @@ export default function DownloadPage() {
             system: 'Linux',
             type: 'CLI',
             description: 'Linux CLI 客户端',
-            link: 'CyanEdge_linux_amd64/cyan_map_engine',
+            link: 'CyanEdge_linux_amd64/frpc',
         },
         {
             name: '青缘.苹果amd64',
@@ -40,7 +40,7 @@ export default function DownloadPage() {
             system: 'Darwin',
             type: 'CLI',
             description: 'MacOS CLI 客户端',
-            link: 'CyanEdge_darwin_amd64/cyan_map_engine',
+            link: 'CyanEdge_darwin_amd64/frpc',
         },
         {
             name: '青缘.企鹅arm64',
@@ -48,7 +48,7 @@ export default function DownloadPage() {
             system: 'Linux',
             type: 'CLI',
             description: 'Linux CLI 客户端',
-            link: 'CyanEdge_linux_arm64/cyan_map_engine',
+            link: 'CyanEdge_linux_arm64/frpc',
         },
         {
             name: '青缘.苹果arm64',
@@ -56,7 +56,7 @@ export default function DownloadPage() {
             system: 'Darwin',
             type: 'CLI',
             description: 'MacOS CLI 客户端',
-            link: 'CyanEdge_darwin_arm64/cyan_map_engine', 
+            link: 'CyanEdge_darwin_arm64/frpc', 
         },
         {
             name: '青缘.企鹅arm32',
@@ -64,7 +64,7 @@ export default function DownloadPage() {
             system: 'Linux',
             type: 'CLI',
             description: 'Linux CLI 客户端',
-            link: 'CyanEdge_linux_arm32/cyan_map_engine',
+            link: 'CyanEdge_linux_arm32/frpc',
         }
 
     ];
