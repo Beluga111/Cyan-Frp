@@ -327,7 +327,6 @@ export default function MyComponent() {
                         <Typography>本地IP：{selectedTunnel.local_ip}</Typography>
                         <Typography>节点主机名：{selectedTunnel.node_hostname}</Typography>
                         <Typography>简单启动命令: ./{selectedTunnel.easy_start}</Typography>
-                        <Typography>简单启动命令(注): 请把启动命令中的 frpc 改成您下载的frpc文件名，格式为 CyanEdge_系统_架构 </Typography>
                         <Typography>当前连接数: {selectedTunnel.cur_conns}</Typography>
                         <Typography>今日流量使用（入网/出网）: {(selectedTunnel.today_traffic_in /1024/1024/1024).toFixed(2)} / {(selectedTunnel.today_traffic_out /1024/1024/1024).toFixed(2)}GB</Typography>
                         <Typography>上次启动时间: {selectedTunnel.last_start_time ? selectedTunnel.last_start_time : "从未启动"}</Typography>
