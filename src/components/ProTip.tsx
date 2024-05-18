@@ -13,7 +13,7 @@ export default function ProTip() {
   return (
     <Typography sx={{ mt: 6, mb: 3 }} color="text.secondary">
       <LightBulbIcon sx={{ mr: 1, verticalAlign: 'middle' }} />
-      下一站，银河！
+      这里只是你的起点，不是你的终点，下一站，银河！
     </Typography>
   );
 }
